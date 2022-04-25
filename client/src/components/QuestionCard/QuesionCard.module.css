@@ -1,0 +1,79 @@
+.mainContainer {
+  display: flex;
+  justify-content: start
+}
+
+.themesContainer {
+  width: 60vh;
+  display: 'flex';
+  flex-direction: column;
+  text-align: center;
+  /* background-color: brown; */
+}
+
+.themeCard {
+  width: 50vh;
+  margin: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 50px 11px rgba(34, 60, 80, 0.2)
+}
+
+.themeCard:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+
+.themeCardText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px
+}
+
+.questionsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 3 rows */
+.questionsCardsRow {
+  width: 130vh;
+  height: 27.5vh;
+  display: flex;
+  justify-content: start;
+}
+
+.questionCard {
+  width: 13vh;
+  margin: 18px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 50px 11px rgba(34, 60, 80, 0.2);
+  height: 10vh;
+  cursor: pointer
+}
+
+.questionCard:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+
+.questionCardText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px
+}
+
+.pressed {
+  background-color: rgb(230, 179, 179);
+  width: 13vh;
+  margin: 18px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 50px 11px rgba(34, 60, 80, 0.2);
+  height: 10vh;
+}

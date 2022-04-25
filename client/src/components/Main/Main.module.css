@@ -1,0 +1,52 @@
+.mainContainer {
+  display: flex;
+  justify-content: start
+}
+
+.themesContainer {
+  width: 60vh;
+  display: 'flex';
+  flex-direction: column;
+  text-align: center;
+  margin-left: 20vh
+}
+
+.themeCard {
+  width: 50vh;
+  margin: 30px; 
+}
+
+.themeCardText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px
+}
+
+.questionsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14.5px;
+}
+
+/* 3 rows */
+.questionsCardsRow {
+  width: 130vh;
+  height: 14.2vh;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  width: 100vh
+}
+
+.quesionCard {
+  width: 20vh;
+  margin: 30px
+}
+
+.questionCardText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px
+}
